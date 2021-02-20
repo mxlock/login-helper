@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projeto Udemy - Login Helper</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/e1d5a8899c.js" crossorigin="anonymous" defer></script>
+
+</head>
+<body>
+
+    <header>
+        <h1>Login-Helper</h1>
+    </header>
+
+    <main>
+        <form>
+                <section class="input-container">
+                    <input type="email" placeholder="exemple@gmail.com">
+
+                    <div class="password-container">
+                        <input type="password" id="field-password" placeholder="****************">
+                        <i class="fas fa-eye" id="eye" onclick="showPassword()"></i>
+                        <i class="fas fa-eye-slash" id="eye-slash"
+                        onclick="showPassword()"></i>
+                    </div>
+                </section>
+
+                <section class="password-infos">
+                    <div>
+                    <input type="checkbox">
+                    <span>Lembrar Senha?</span>
+                    </div>
+                    
+                    <a href="#">Esqueceu sua senha?</a>
+
+                </section>
+
+                <button id="btn-login">Login</button>
+
+                <section class="link-containers">
+                    <span>Ou entre com:</span>
+
+                <aside>
+                    <a href="#"><i class="fab fa-google-plus google"></i></a>
+                    <a href="#"><i class="fab fa-facebook facebook"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in linkedin"></i></a>
+                </aside>
+                </section>
+
+            <footer>
+                <hr>
+                <span>Ainda não tem uma conta? <a href="#">Cadastre-se</a> </span>
+            </footer>
+        </form>
+    </main>
+</body>
+</html>
